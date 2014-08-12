@@ -9,6 +9,7 @@ A working Clojurescript Versal gadget!
 (`brew install leiningen` if you don't have it)
 
 `lein cljsbuild once`
+
 `versal preview`
 
 ## Usage
