@@ -15,7 +15,7 @@ A working Clojurescript Versal gadget! AND it has React.js/om!
 ## Usage
 
 All the source code is in `src/versal-gadget/core.cljs`.
-Project compilation is performaned by `project.clj`.
+Project compilation is performed by `project.clj`.
 
 ### Bugs
 
