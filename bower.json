@@ -1,0 +1,21 @@
+{
+  "name": "versal-gadget",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Polyrhythm/versal-cljs",
+  "authors": [
+    "Ryan <polyrhythm@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "versal-player-api": "Versal/player-api#~0.3.3"
+  }
+}
