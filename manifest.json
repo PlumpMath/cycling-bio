@@ -1,0 +1,12 @@
+{
+  "name": "versal-cljs",
+  "version": "0.0.1",
+  "title": "Versal CLJS",
+  "description": "Whatever",
+  "author": "Ryan",
+  "launcher": "iframe",
+  "username": "ryjo",
+  "defaultConfig": {
+    "color": "blue"
+  }
+}

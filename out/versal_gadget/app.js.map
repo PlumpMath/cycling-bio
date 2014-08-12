@@ -1,0 +1,10 @@
+{"version":3,
+ "file":
+ "/Users/hackbox/Development/clojurescript/versal-gadget/out/versal_gadget/app.js",
+ "sources":["main.cljs"],
+ "lineCount":12,
+ "mappings":
+ ";AAAA;;;;;;AAIA,AAACA;AACD,AAAKC,2BAAO,KAAAC;AAEZ,YAAA,ZAAMC",
+ "names":
+ ["cljs.core/enable-console-print!", "versal-gadget.app/player",
+  "js/VersalPlayerAPI", "js/console"]}
