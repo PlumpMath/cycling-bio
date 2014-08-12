@@ -1,6 +1,6 @@
 # versal-gadget
 
-A working Clojurescript Versal gadget!
+A working Clojurescript Versal gadget! AND it has React.js/om!
 
 ## Installation
 
