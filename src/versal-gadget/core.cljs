@@ -16,12 +16,16 @@
       (let [cattrs (js->clj attrs)]
         (swap! app-state cattrs)))))
 
+(defn click-handler []
+  (.log js/console "you clicked a button"))
+
 (defn main-view [app owner]
   (reify
     om/IRender
     (render [_]
       (dom/div nil
-        (dom/h2 nil "Main view")))))
+        (dom/h2 nil "Main view")
+        (dom/button #js {:onClick #(click-handler)} "BUTAN")))))
 
 (defn setup-react []
   (om/root main-view app-state
