@@ -1,12 +1,16 @@
 {
-  "name": "versal-cljs",
+  "name": "cycling-metrics",
   "version": "0.0.1",
-  "title": "Versal CLJS",
+  "title": "Cycling Metrics",
   "description": "Whatever",
   "author": "Ryan",
   "launcher": "iframe",
   "username": "ryjo",
   "defaultConfig": {
-    "color": "blue"
+    "ftp": 285,
+    "hr-data": {
+      "rest-hr": 45,
+      "max-hr": 195
+    }
   }
 }

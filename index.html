@@ -3,9 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>Versal gadget</title>
+        <style>
+            .current-hr {
+                margin-top: 20px;
+                background-color: rgba(255,0,0,0.1);
+                display: inline-block;
+                padding: 5px;
+            }
+        </style>
     </head>
     <body>
         <div id="app"></div>
+        <script type='text/javascript' id='lt_ws' src='http://localhost:62727/socket.io/lighttable/ws.js'></script>
         <script src="http://fb.me/react-0.11.1.js"></script>
         <script src="bower_components/eventEmitter/EventEmitter.js"></script>
         <script src="bower_components/versal-player-api/index.js"></script>
